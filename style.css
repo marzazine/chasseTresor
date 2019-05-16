@@ -1,0 +1,67 @@
+body {
+	background-color: #3d9c8a;
+	font-family: 'PiratesWriters';
+	font-size: 1.3em;
+	color: #99c383;
+}
+
+@font-face {
+	font-family: 'PiratesWriters';
+	src: url('PiratesWriters.ttf') format('truetype');
+	;
+}
+
+table.tresor td {
+	padding: 25px;
+	border: 1.6px solid black;
+	border-image: url('border.jpg') 20;
+}
+
+td:hover {
+	background: rgba(255, 255, 255, 0.5);
+	cursor: pointer;
+	margin: auto;
+}
+
+td.legende {
+	pointer-events: none;
+}
+
+table.tresor {
+	margin: auto;
+	background: url("island.jpg");
+	background-repeat: no-repeat;
+	box-shadow: 2px 2px 2px 2px black;
+}
+
+.bad {
+	background: rgba(214, 14, 14, 0.7);
+}
+
+.good {
+	background-image: url("chest.gif");
+}
+
+.presqueColonne {
+	background: rgba(255, 87, 51, 0.7);
+}
+
+.presqueLigne {
+	background: rgba(253, 218, 90, 0.7);
+}
+
+.legendeMauvais {
+	pointer-events: none;
+	background: rgba(214, 14, 14, 0.7);
+}
+
+.legendePresqueColonne {
+	pointer-events: none;
+	background: rgba(255, 87, 51, 0.7);
+}
+
+.legendePresqueLigne {
+	pointer-events: none;
+	background: rgba(253, 218, 90, 0.7);
+}
+

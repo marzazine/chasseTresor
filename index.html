@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <meta charset="utf-8" />
+      <title>L'ile au trésor</title>
+      <script type="text/javascript" src="script.js"></script>
+      <link rel="stylesheet" type="text/css" href="style.css">
+   </head>
+
+   <body onload="initTab();">
+      <img src="logo.png" width="600" height="150">
+
+      <h1>Nombre de coup(s) : <span id="compte">0</span></h1>
+      Légende<br /><br />
+
+      <table border="1" style="width: 250px; height: 150px;">
+         <tbody>
+            <tr style="height: 23px;">
+               <td class="legende" style="width: 75px; height: 4px;">Bonne colonne</td>
+               <td class="legende" style="width: 75px; height: 4px;">Bonne ligne</td>
+               <td class="legende" style="width: 75px; height: 4px;">Mauvaise case</td>
+            </tr>
+            <tr style="height: 23px;">
+               <td class="legendePresqueColonne" style="width: 75px; height: 4px;">&nbsp;</td>
+               <td class="legendePresqueLigne" style="width: 75px; height: 4px;">&nbsp;</td>
+               <td class="legendeMauvais" style="width: 75px; height: 4px;">&nbsp;</td>
+            </tr>
+         </tbody>
+      </table>
+
+      <hr>
+
+      <div id="emplacementTable" name="emplacementTable" class="cadre">
+      </div>
+
+         <img src="parrot.png" width="120" height="150"><br/>
+         Halte pirate ! Vous avez mis la main sur la carte au trésor ! C'est à votre tour de creuser...<br>
+      <hr>
+
+   </body>
+</html>
